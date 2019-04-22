@@ -34,6 +34,26 @@ video {
   font-family: alex-brush;
   font-size: 5rem; 
 }
+
+/* Social Icons */
+.social-icons {
+  position: absolute;
+  top: 60%;
+  margin-left: 5px;
+}
+
+.social-icons fa-icon {
+  font-size: 3rem;
+  color: white;
+  padding: 7.5px 15px;
+  cursor: pointer;
+}
+
+.social-icons fa-icon:hover {
+  color: #202020;
+  background-color: white;
+}
+
 /* About ------------------------------------------------------- */
 /* Projects ---------------------------------------------------- */
 /* Contact ----------------------------------------------------- */
