@@ -1,0 +1,26 @@
+/* Navigation */
+a { text-decoration: none; }
+
+/* Sidebar */
+.sidebar-items {
+  position: fixed; 
+  z-index: 10;
+  list-style-type: none;
+  font-size: 3rem;
+}
+.sidebar-items li {
+  text-transform: uppercase;
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 20px; 
+  cursor: pointer;
+}
+.sidebar-items a {
+  color: white;
+  padding: 2px 14px 5px; 
+  background-color: rgba(0,0,0,.5);
+}
+.sidebar-items a:hover {
+  color: rgba(0,0,0,.85);
+  background-color: #fbfbfb;
+  transition: .3s ease;
+}

@@ -1,5 +1,7 @@
+section { min-height: 100vh; height: auto; position: relative; }
+
 /* Splash ------------------------------------------------------ */
-#splash { min-height: 100vh; background-color: black; display: flex; align-items: center; justify-content: center; }
+#splash { background-color: black; display: flex; align-items: center; justify-content: center; }
 
 /* Video Background */
 #video-background {
@@ -41,20 +43,22 @@ video {
   top: 60%;
   margin-left: 5px;
 }
-
 .social-icons fa-icon {
   font-size: 3rem;
   color: white;
   padding: 7.5px 15px;
   cursor: pointer;
 }
-
 .social-icons fa-icon:hover {
   color: #202020;
   background-color: white;
 }
 
 /* About ------------------------------------------------------- */
+#about { background-color: white; }
 /* Projects ---------------------------------------------------- */
+#projects { background-color: green; }
 /* Contact ----------------------------------------------------- */
+#contact { background-color: dodgerblue; }
 /* Footer ------------------------------------------------------ */
+#footer { min-height: unset; height: 15vh; background-color: black; }
