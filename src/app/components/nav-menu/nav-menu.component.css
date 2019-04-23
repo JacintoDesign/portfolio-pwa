@@ -2,6 +2,25 @@
 a { text-decoration: none; }
 
 /* Sidebar */
+.desktop-nav { display: initial; }
+.display-none { display: none; }
+.sidebar-container {
+  /* background-color: dodgerblue; */
+  position: fixed; 
+  display: initial;
+  height: 100vh; 
+  width: 340px; 
+  z-index: 10;
+}
+.sidebar-toggle {
+  font-size: 2rem; 
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  width: 120px;
+  margin: 20px; 
+  padding: 10px; 
+}
 .sidebar-items {
   position: fixed; 
   z-index: 10;

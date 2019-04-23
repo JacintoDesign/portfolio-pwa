@@ -1,5 +1,6 @@
-<div class="sidebar-container">
-  <ul class="sidebar-items">
+<div class="sidebar-container" (mouseover)="SidebarOn()" (mouseout)="SidebarOff()">
+  <p class="sidebar-toggle" id="sidebar-toggle">MENU</p>
+  <ul class="sidebar-items desktop-nav display-none" id="desktop-nav">
     <li><a href="#splash">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#projects">Projects</a></li>
