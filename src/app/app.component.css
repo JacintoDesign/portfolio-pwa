@@ -102,7 +102,7 @@ video {
   font-weight: bold;  
   background-color: rgb(201, 22, 22);
   padding: .5rem;
-  margin-top: 1vh;
+  margin-top: 3vh;
   border-radius: 5px; 
   box-shadow: 0 0.3rem rgba(0, 0, 0, .65);
 }
