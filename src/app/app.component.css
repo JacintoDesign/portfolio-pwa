@@ -111,7 +111,59 @@ video {
   box-shadow: 0 .1rem rgba(0, 0, 0, .65);
 }
 /* Projects ---------------------------------------------------- */
-#projects { background-color: green; }
+#projects { background-color: black; }
+.projects {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10%;
+}
+.projects-title {
+  color: white;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.project-group-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-group-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+.project-item {
+  text-align: center;
+}
+.project-img img {
+  height: 400px;
+  width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+.project-img img:hover {
+  transform: scale(0.97);
+  transition: all 0.3s ease-in-out;
+}
+.project-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.project-title a:hover {
+  color: rgb(201, 22, 22);
+  transition: all 0.3s ease-in-out;
+}
+.github-link { 
+  font-size: 1.1rem;
+  font-weight: 500; 
+  margin-top: 1vh;
+}
+.github-link a:hover {
+  color: rgb(201, 22, 22);
+  transition: all 0.3s ease-in-out;
+}
 /* Contact ----------------------------------------------------- */
 #contact { background-color: dodgerblue; }
 /* Footer ------------------------------------------------------ */
