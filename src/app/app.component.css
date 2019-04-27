@@ -166,8 +166,9 @@ video {
 }
 /* Contact ----------------------------------------------------- */
 #contact { 
-  background-color: dodgerblue; 
-  /* ------- Background Image (Instead of Video) -------*/
+  /* <------- Background Solid Color (Remove if using Hero Pattern) -------> */
+  /* background-color: dodgerblue;  */
+  /* <------- Background Image (Instead of Video) -------------------------> */
   /* background: url(../assets/img/background.jpg); */
   display: flex; 
   justify-content: center; }
