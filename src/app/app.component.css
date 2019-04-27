@@ -197,4 +197,22 @@ video {
   height: auto;
 }
 /* Footer ------------------------------------------------------ */
-#footer { min-height: unset; height: 15vh; background-color: black; }
+#footer { 
+  min-height: unset; 
+  height: 15vh; 
+  background-color: black; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.footer-icons fa-icon {
+  font-size: 2rem;
+  margin-left: 1vw;
+}
+.footer-icons fa-icon:hover {
+  color: rgb(201, 22, 22);
+}
+.footer-text {
+  color: rgba(255, 255, 255, .85);
+  text-align: center;
+}
