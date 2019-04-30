@@ -8,7 +8,7 @@ a { text-decoration: none; }
   /* background-color: dodgerblue; */
   position: fixed; 
   display: initial;
-  height: 100vh; 
+  height: 30vh; 
   width: 340px; 
   z-index: 10;
 }

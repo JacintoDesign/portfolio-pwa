@@ -1,5 +1,6 @@
 <div class="wrapper">
   <app-nav-menu></app-nav-menu>
+  <router-outlet></router-outlet>
   <!-- Splash ------------------------------------------------------>
   <section id="splash">
 
@@ -30,7 +31,7 @@
         <div class="card-body">
           <h1 class="card-title">About</h1>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, repellendus! Iusto, ipsam omnis enim placeat tempore molestias cumque, suscipit maiores asperiores est delectus, nihil eligendi. Soluta optio enim eligendi ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo quae earum totam ullam maxime amet repellendus libero dolores, pariatur quisquam necessitatibus cupiditate eaque voluptatibus! Veritatis delectus sed consequatur corporis.</p>
-          <a href="#">
+          <a routerLink="/resume" routerLinkActive="active" (click)="scrollToTop()">
             <div class="card-button">View Resume</div>
           </a>
         </div>
