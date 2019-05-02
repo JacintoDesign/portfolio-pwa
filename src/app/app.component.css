@@ -167,7 +167,7 @@ video {
 /* Contact ----------------------------------------------------- */
 #contact { 
   /* <------- Background Solid Color (Remove if using Hero Pattern) -------> */
-  /* background-color: dodgerblue;  */
+  background-color: black; 
   /* <------- Background Image (Instead of Video) -------------------------> */
   /* background: url(../assets/img/background.jpg); */
   display: flex; 
@@ -199,7 +199,7 @@ video {
 /* Footer ------------------------------------------------------ */
 #footer { 
   min-height: unset; 
-  height: 15vh; 
+  height: 140px; 
   background-color: black; 
   display: flex; 
   justify-content: center; 
