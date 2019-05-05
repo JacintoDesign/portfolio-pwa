@@ -13,17 +13,16 @@ export class NavMenuComponent implements OnInit {
   }
 
   SidebarOn() {
-    var nav = document.getElementById("desktop-nav");
-    var toggle = document.getElementById("sidebar-toggle");
-    nav.classList.remove("display-none");
-    toggle.classList.add("display-none");
+      var nav = document.getElementById("desktop-nav");
+      var toggle = document.getElementById("sidebar-toggle");
+      nav.classList.remove("display-none");
+      toggle.classList.add("display-none");
   }
 
   SidebarOff() {
-    var nav = document.getElementById("desktop-nav");
-    var toggle = document.getElementById("sidebar-toggle");
-    nav.classList.add("display-none");
-    toggle.classList.remove("display-none");
+      var nav = document.getElementById("desktop-nav");
+      var toggle = document.getElementById("sidebar-toggle");
+      nav.classList.add("display-none");
+      toggle.classList.remove("display-none");
   }
-
 }

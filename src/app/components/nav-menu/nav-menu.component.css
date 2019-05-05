@@ -43,3 +43,12 @@ a { text-decoration: none; }
   background-color: #fbfbfb;
   transition: .3s ease;
 }
+
+/* --------------------- Media Queries ------------------------- */
+
+/* Large Smartphone */
+@media screen and (max-width: 600px) {
+  .sidebar-container { height: 90px; width: 160px; }
+  .sidebar-toggle { margin: 20px; padding: 2px 14px 5px; width: 120px; }
+  .sidebar-items { font-size: 2rem; top: -10px; left: -20px;}
+}
