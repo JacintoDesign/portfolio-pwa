@@ -12,6 +12,13 @@ export class NavMenuComponent implements OnInit {
   ngOnInit() {
   }
 
+  Toggle() {
+    var mobileNav = document.getElementById("mobile-nav");
+    var menuBars = document.getElementById("menu-bars");
+    mobileNav.classList.toggle("nav-expand");
+    menuBars.classList.toggle("change");
+  }
+
   SidebarOn() {
       var nav = document.getElementById("desktop-nav");
       var toggle = document.getElementById("sidebar-toggle");

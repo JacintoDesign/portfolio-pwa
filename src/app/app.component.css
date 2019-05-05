@@ -221,14 +221,15 @@ video {
 
 /* Large Smartphone */
 @media screen and (max-width: 600px) {
+  .wrapper { overflow-x: hidden; }
   video { object-fit: cover; }
-  #video-background { width: 100%; }
+  #video-background { position: absolute; }
   #video-background-2 { height: 100vh; width: 100vw; }
   .main-title { font-size: 3rem; }
   .social-icons fa-icon { font-size: 2rem; }
   .card { width: 100vw; top: 0; background-color: rgba(255,255,255,.7); }
   .card-text { font-size: 1rem; }
-  .projects { padding-top: 60px; }
+  /* .projects { padding-top: 60px; } */
   .projects-title { font-size: 2rem; }
   .contact-mail { font-size: 3rem; }
   .footer-icons fa-icon { margin-left: 15px; }
