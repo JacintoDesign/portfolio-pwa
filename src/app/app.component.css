@@ -227,10 +227,23 @@ video {
   #video-background-2 { height: 100vh; width: 100vw; }
   .main-title { font-size: 3rem; }
   .social-icons fa-icon { font-size: 2rem; }
-  .card { width: 100vw; top: 0; background-color: rgba(255,255,255,.7); }
+  .card { width: 100vw; top: 0; padding: 2rem 1.5rem; background-color: rgba(255,255,255,.7); }
   .card-text { font-size: 1rem; }
-  /* .projects { padding-top: 60px; } */
+  .projects { padding-top: 20px; }
   .projects-title { font-size: 2rem; }
   .contact-mail { font-size: 3rem; }
+  .footer-icons fa-icon { margin-left: 15px; }
+}
+
+/* Large Smartphone (Horizontal) */
+@media screen and (max-width: 850px) and (max-height: 500px) {
+  .main-title { top: -20px; }
+  #video-background-2 { width: 100%; }
+  .card { width: 80%; top: 0; padding: 2rem 1.5rem; }
+  .card-text { font-size: 1rem; }
+  .about-img { height: 50vh; }
+  .projects { margin: 0 2%;}
+  .project-img img { height: 245px; width: 245px; }
+  .contact-mail { margin-top: 8vh; }
   .footer-icons fa-icon { margin-left: 15px; }
 }
