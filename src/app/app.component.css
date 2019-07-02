@@ -2,7 +2,16 @@ section { min-height: 100vh; height: auto; position: relative; font-family: 'Seg
 a { text-decoration: none; color: white; }
 
 /* Splash ------------------------------------------------------ */
-#splash { background-color: black; display: flex; align-items: center; justify-content: center; }
+#splash { 
+  /* background-image: url("../assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background-color: black; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
 
 /* Video Background */
 #video-background {
