@@ -1,5 +1,5 @@
 /* Navigation */
-a { text-decoration: none; }
+li, a { text-decoration: none; }
 #mobile-nav { display: none; }
 #menu-bars { display: none; }
 
@@ -32,11 +32,11 @@ a { text-decoration: none; }
 .sidebar-items li {
   text-transform: uppercase;
   font-family: 'Segoe UI', sans-serif;
-  color: white;
-  padding: 2px 14px 5px; 
   cursor: pointer;
-  background-color: rgba(0,0,0,.5);
+  padding: 2px 14px 5px; 
   margin-bottom: 20px; 
+  color: white;
+  background-color: rgba(0,0,0,.5);
 }
 .sidebar-items li:hover {
   color: rgba(0,0,0,.85);
