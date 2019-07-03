@@ -54,7 +54,7 @@ li, a { text-decoration: none; }
   .mobile-nav { 
     position: fixed; 
     top: -300px; 
-    left: -49px; 
+    left: -50px; 
     width: 112%; 
     z-index: 10; 
     transition: 0.5s ease; 
@@ -124,4 +124,9 @@ li, a { text-decoration: none; }
 
 /* Large Smartphone (Horizontal) */
 @media screen and (max-width: 850px) and (max-height: 500px) {
+}
+
+/* iPhone X */
+@media screen and (max-width: 376px) {
+  .mobile-nav { width: 113%; }
 }

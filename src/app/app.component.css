@@ -79,7 +79,7 @@ video {
   width: 40vw; 
   margin: 0 auto; 
   background-color: rgba(255,255,255,.8);
-  padding: 5rem 1.5rem; 
+  padding: 3rem 1.5rem; 
   display: flex;
   flex-direction: column;
 }
@@ -119,6 +119,7 @@ video {
   transform: translate(0, .3rem);
   box-shadow: 0 .1rem rgba(0, 0, 0, .65);
 }
+
 /* Projects ---------------------------------------------------- */
 #projects { background-color: black; }
 .projects {
@@ -173,6 +174,7 @@ video {
   color: rgb(201, 22, 22);
   transition: all 0.3s ease-in-out;
 }
+
 /* Contact ----------------------------------------------------- */
 #contact { 
   /* <------- Background Solid Color (Remove if using Hero Pattern) -------> */
@@ -205,14 +207,18 @@ video {
   width: auto; 
   height: auto;
 }
+
 /* Footer ------------------------------------------------------ */
 #footer { 
   min-height: unset; 
-  height: 140px; 
+  height: 160px; 
   background-color: black; 
   display: flex; 
   justify-content: center; 
   align-items: center; 
+}
+.footer-icons {
+  margin-top: 10px;
 }
 .footer-icons fa-icon {
   font-size: 2rem;
@@ -234,10 +240,15 @@ video {
 
 /* Monitor - Fullscreen */
 @media screen and (min-width: 1800px) and (min-height: 1000px) {
+  .wrapper { overflow-x: hidden; }
+  .card { padding: 5rem 1.5rem; }
+  #footer { height: 180px; }
 }
 
 /* Laptop - Bookmarks Bar */
 @media screen and (max-width: 1800px) {
+  .card { top: 0; }
+  .card-text { font-size: 1.2rem; }
 }
 
 /* Laptop - No Bookmarks Bar */
@@ -246,10 +257,14 @@ video {
 
 /* Laptop - Fullscreen */
 @media screen and (min-width: 1300px) and (max-width: 1799px) and (min-height: 800px) {
+  .wrapper { overflow-x: hidden; }
+  .card { top: 4vh; }
 }
 
 /* Laptop - 1366 x 768 - Bookmarks Bar */
 @media screen and (width: 1366px) {
+  .card-text { font-size: 1rem; }
+  .project-img img { height: 300px; width: 300px; }
 }
 
 /* Laptop - 1366 x 768 - No Bookmarks Bar */
@@ -258,14 +273,25 @@ video {
 
 /* Laptop - 1366 x 768 - Fullscreen */
 @media screen and (width: 1366px) and (min-height: 759px) {
+  .wrapper { overflow-x: hidden; }
+  .card { top: 2vh; }
 }
 
 /* iPad - Horizontal */
 @media screen and (min-width: 900px) and (max-width: 1025px) {
+  .card { width: 70vw; top: 1vh; }
+  .project-img img { height: 270px; width: 270px; }
+  #video-background-2 { width: 100%; margin-top: 100px; }
+  .contact-mail { margin-top: 24vh; }
+  .footer-icons fa-icon { margin-left: 15px; }
 }
 
 /* iPad */
 @media screen and (max-width: 769px) {
+  video { object-fit: cover; }
+  .card { width: 70vw; top: 5vh; }
+  #video-background-2 { height: 100vh; width: 100vw; }
+  .footer-icons fa-icon { margin-left: 15px; }
 }
 
 /* Large Smartphone */
@@ -277,6 +303,7 @@ video {
   .main-title { font-size: 3rem; }
   .social-icons fa-icon { font-size: 2rem; }
   .card { width: 100vw; top: 0; padding: 2rem 1.5rem; background-color: rgba(255,255,255,.7); }
+  .card-body { width: 95%; margin-left: 2%; }
   .card-text { font-size: 1rem; }
   .projects { padding-top: 20px; }
   .projects-title { font-size: 2rem; }
@@ -299,10 +326,17 @@ video {
 
 /* iPhone X - Horizontal*/
 @media screen and (max-width: 724px) and (max-height: 376px) {
+  .projects-title { font-size: 2rem; }
+  .project-img img { height: 230px; width: 230px; }
+  .project-title { font-size: 1.2rem; }
+  .github-link { font-size: 1rem; }
+  .contact-mail { font-size: 3rem; }
 }
 
 /* iPhone X */
 @media screen and (max-width: 376px) {
+  .social-icons { margin-left: -2px; }
+  .projects-title { font-size: 1.8rem; }
 }
 
 /* iPhone 6/7/8 */
@@ -311,6 +345,7 @@ video {
 
 /* iPhone 6/7/8 - Horizontal */
 @media screen and (max-width: 668px) and (max-height: 376px) {
+  .project-img img { height: 210px; width: 210px; }
 }
 
 
